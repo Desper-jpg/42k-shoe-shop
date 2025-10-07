@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>42k Shoe Shop</title>
+  <link rel="stylesheet" href="42k-shoe-shop.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav>
+  <div class="logo">42k Shoe Shop</div>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#shop">Shop</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <button class="cart-icon" onclick="openCart()">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-count" id="navbar-cart-count">0</span>
+    </button>
+    <button id="darkToggle" class="dark-toggle">Toggle Dark Mode</button>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Step Into Style</h1>
+    <p>Discover the latest sneakers & footwear</p>
+    <a href="#shop" class="btn-shop">Shop Now</a>
+  </section>
+
+  <!-- Product Grid -->
+  <section id="shop" class="product">
+    <h2>Trending Now</h2>
+
+     <!-- 🔍 Search Bar -->
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search for shoes..." oninput="searchProducts()" />
+  </div>
+
+    <div class="product-grid" id="product-grid">
+      <!-- Products will be loaded via JavaScript -->
+    </div>
+    
+    <!-- 🔢 Pagination Controls (Add this BELOW the product grid) -->
+<div id="pagination" class="pagination"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Kinoo, Waiyaki Way</p>
+        <p><i class="fas fa-phone"></i> (254) 794375020</p>
+        <p><i class="fas fa-envelope"></i> mainaeliud2392@yahoo.com</p>
+      </div>
+      <form id="contactForm" class="contact-form">
+  <input type="text" id="name" placeholder="Your Name" required />
+  <input type="email" id="email" placeholder="Your Email" required />
+  <textarea id="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+<p id="formResponse"></p> <!-- Feedback message -->
+
+
+    </div>
+  </section>
+
+  <!-- Cart Popup -->
+
+  <div class="cart-popup" id="cartPopup" style="display: none;">
+    <div class="cart-header">
+      <h3>Your Cart (<span id="cart-count">0</span>)</h3>
+      <button type="button" onclick="closeCart()" class="close-btn">&times;</button>
+    </div>
+
+    <ul id="cart-items" class="cart-items-list">
+      <!-- Items will be rendered here -->
+    </ul>
+
+    <div class="customer-info">
+      <input type="text" id="customer-name" placeholder="Your Name" required />
+      <input type="tel" id="customer-phone" placeholder="Phone Number" required />
+    </div>
+
+    <div class="cart-footer">
+      <button type="button" onclick="checkout()" class="checkout-btn">Checkout via WhatsApp</button>
+    </div>
+  </div>
+
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 42k Shoe Shop. All rights reserved.</p>
+  </footer>
+
+  <!-- Loading Spinner -->
+  <div id="loading" class="loading-screen">
+    <i class="fas fa-spinner fa-spin"></i> Loading...
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="42k-shoe-shop-app.js"></script>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", async (event) => {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+  const responseBox = document.getElementById("formResponse");
+
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, message })
+    });
+
+    if (!response.ok) {
+      throw new Error("Server error: " + response.status);
+    }
+
+    const result = await response.json();
+    responseBox.style.color = "green";
+    responseBox.textContent = "✅ " + result.message;
+    document.getElementById("contactForm").reset();
+  } catch (error) {
+    responseBox.style.color = "red";
+    responseBox.textContent = "❌ Failed to send message: " + error.message;
+  }
+});
+
+</script>
+
+<script>
+  const toggleBtn = document.getElementById("darkToggle");
+
+  // Check saved mode
+  const savedTheme = localStorage.getItem("darkMode");
+  if (savedTheme === "enabled") {
+    document.body.classList.add("dark-mode");
+  }
+
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    // Save preference
+    if (document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("darkMode", "enabled");
+    } else {
+      localStorage.setItem("darkMode", "disabled");
+    }
+  });
+</script>
+
+</body>
+</html>
