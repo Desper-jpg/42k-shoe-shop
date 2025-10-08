@@ -63,15 +63,14 @@
         <p><i class="fas fa-phone"></i> (254) 794375020</p>
         <p><i class="fas fa-envelope"></i> mainaeliud2392@yahoo.com</p>
       </div>
-      <form id="contactForm" class="contact-form">
-  <input type="text" id="name" placeholder="Your Name" required />
-  <input type="email" id="email" placeholder="Your Email" required />
-  <textarea id="message" placeholder="Your Message" required></textarea>
+      <form action="https://formspree.io/f/xqaydwkq" method="POST" class="contact-form">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
   <button type="submit">Send Message</button>
 </form>
 
 <p id="formResponse"></p> <!-- Feedback message -->
-
 
     </div>
   </section>
@@ -113,38 +112,6 @@
   <script src="42k-shoe-shop-app.js"></script>
 
 <script>
-  document.getElementById("contactForm").addEventListener("submit", async (event) => {
-  event.preventDefault();
-
-  const name = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const message = document.getElementById("message").value.trim();
-  const responseBox = document.getElementById("formResponse");
-
-  try {
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, email, message })
-    });
-
-    if (!response.ok) {
-      throw new Error("Server error: " + response.status);
-    }
-
-    const result = await response.json();
-    responseBox.style.color = "green";
-    responseBox.textContent = "✅ " + result.message;
-    document.getElementById("contactForm").reset();
-  } catch (error) {
-    responseBox.style.color = "red";
-    responseBox.textContent = "❌ Failed to send message: " + error.message;
-  }
-});
-
-</script>
-
-<script>
   const toggleBtn = document.getElementById("darkToggle");
 
   // Check saved mode
@@ -167,3 +134,4 @@
 
 </body>
 </html>
+
