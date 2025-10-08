@@ -348,37 +348,78 @@ nav {
 
 /* Default (desktop) styles already exist */
 
-/* Mobile styles */
+/* 📱 Responsive Design Fixes */
 @media (max-width: 768px) {
-  nav ul {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
     flex-direction: column;
     gap: 10px;
+    text-align: center;
+  }
+
+  .nav-right {
+    margin-top: 10px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
   }
 
   .product-grid {
-    grid-template-columns: 1fr; /* one product per row on small screens */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 products per row */
+    gap: 15px;
   }
 
-  .hero h1 {
-    font-size: 1.8rem;
+  .product-card {
+    padding: 10px;
   }
 
-  .cart-popup {
-    width: 95%;
-    right: 2.5%;
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 14px;
+    text-align: center;
   }
 }
 
+/* 📱 Even smaller phones */
 @media (max-width: 480px) {
-  .hero h1 {
-    font-size: 1.5rem;
+  .product-grid {
+    grid-template-columns: 1fr; /* 1 product per row */
   }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
   .btn-shop {
-    font-size: 0.9rem;
+    font-size: 14px;
     padding: 8px 16px;
   }
 }
-
 
 /* ===================== CONTACT ===================== */
 #contact {
@@ -566,4 +607,5 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+
 
