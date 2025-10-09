@@ -403,8 +403,8 @@ nav {
   .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Always show 4 per row */
-    gap: 14px;
-    padding: 0 10px;
+    gap: 16px;
+    padding: 0 15px;
   }
 
   .product-card {
@@ -443,7 +443,7 @@ nav {
   }
   .product-grid {
     grid-template-columns: repeat(4, 1fr); /* still four columns */
-    gap: 10px;
+    gap: 15px;
   }
 
   .product-card img {
@@ -650,6 +650,7 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+
 
 
 
