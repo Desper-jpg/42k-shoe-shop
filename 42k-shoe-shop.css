@@ -402,9 +402,9 @@ nav {
   /* Product grid */
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Always show 4 per row */
-    gap: 16px;
-    padding: 0 15px;
+    grid-template-columns: repeat(3, 1fr); /* Always show 3 per row */
+    gap: 14px;
+    padding: 0 10px;
   }
 
   .product-card {
@@ -442,8 +442,8 @@ nav {
     padding: 8px 16px;
   }
   .product-grid {
-    grid-template-columns: repeat(4, 1fr); /* still four columns */
-    gap: 15px;
+    grid-template-columns: repeat(3, 1fr); /* still three columns */
+    gap: 10px;
   }
 
   .product-card img {
@@ -650,6 +650,7 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+
 
 
 
