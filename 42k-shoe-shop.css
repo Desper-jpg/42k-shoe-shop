@@ -402,7 +402,7 @@ nav {
   /* Product grid */
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Always show 2 per row */
+    grid-template-columns: repeat(4, 1fr); /* Always show 4 per row */
     gap: 14px;
     padding: 0 10px;
   }
@@ -442,7 +442,7 @@ nav {
     padding: 8px 16px;
   }
   .product-grid {
-    grid-template-columns: repeat(2, 1fr); /* still two columns */
+    grid-template-columns: repeat(4, 1fr); /* still four columns */
     gap: 10px;
   }
 
@@ -650,6 +650,7 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+
 
 
 
