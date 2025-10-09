@@ -68,7 +68,7 @@ const products = [
     { id: 66, name: "Dunk Low Grey Fog", price: 27.68461538461538 * 130, image: "assets/dunk-low-grey-fog.webp"},
     { id: 67, name: "Air Jordan-1 Low Black And White", price: 26.92307692307692 * 130, image: "assets/air-jordan-1-low-black-and-white.webp"},
     { id: 68, name: "Nocta X Nike Glide", price: 34.61538461538461 * 130, image: "assets/nocta-x-nike-glide.webp"},
-    { id: 69, name: "Nike Dunk Low(Active Fuchsia)", price: 23.84615384615384 * 130, image: "assets/Nike-Dunk-low.jpg"}
+    { id: 69, name: "Nike Dunk Low(Active Fuchsia)", price: 23.84615384615384 * 130, image: "assets/Nike-Dunk-Low.jpg"}
     
 ];
 
@@ -333,6 +333,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
