@@ -401,9 +401,10 @@ nav {
 
   /* Product grid */
   .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 18px;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    padding: 0 10px;
   }
 
   /* Search box */
@@ -627,6 +628,7 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+
 
 
 
