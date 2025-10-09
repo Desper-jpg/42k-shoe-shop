@@ -40,14 +40,14 @@ const products = [
     { id: 38, name: "Timberland Loafer", price: 20.76153846153846 * 130, image: "assets/timberland-loafer.jpg"},
     { id: 39, name: "Vans Knu Skool", price: 14.61538461538461 * 130, image: "assets/vans-knu-skool.jpg"},
     { id: 40, name: "Worrior Sandal", price: 10 * 130, image: "assets/worrior.jpg"},
-    { id: 41, name: "Nike Air Max 97", price: 16.92307692307692 * 130, image: "assets/Nike-Air-Max-97.jpg"},
-    { id: 42, name: "Nike Air Max 97", price: 16.92307692307692 * 130, image: "assets/Nike-Air-Max-9-(2).jpg"},
-    { id: 43, name: "Nike Air Max 97", price: 12.30769230769230 * 130, image: "assets/Nike-Air-Max-9-(3).jpg"},
-    { id: 44, name: "Adidas Gazelle ", price: 15.37692307692307 * 130, image: "assets/Adidas-Gazelle-(2).jpg"},
-    { id: 45, name: "Suede Clogs ", price: 12.30769230769230 * 130, image: "assets/suede-clogs-(2).jpg"},
-    { id: 46, name: "Suede Clogs", price: 10 * 130, image: "assets/suede-clogs-(3).jpg"},
-    { id: 47, name: "Suede Clogs", price: 9.230769230769230 * 130, image: "assets/suede-clogs-(4).jpg"},
-    { id: 48, name: "Suede Clogs", price: 8.461538461538461 * 130, image: "assets/suede-clogs.jpg"},
+    { id: 41, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-97.jpg"},
+    { id: 42, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-9-(2).jpg"},
+    { id: 43, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-9-(3).jpg"},
+    { id: 44, name: "Adidas Gazelle ", price: 22.30769230769230 * 130, image: "assets/Adidas-Gazelle-(2).jpg"},
+    { id: 45, name: "Suede Clogs ", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(2).jpg"},
+    { id: 46, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(3).jpg"},
+    { id: 47, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(4).jpg"},
+    { id: 48, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs.jpg"},
     { id: 49, name: "Timberland Leather Boots", price: 38.46153846153846 * 130, image: "assets/timberland-leather-boots.webp"},
     { id: 50, name: "Chelsea Boots 3Qh", price: 38.46153846153846 * 130, image: "assets/chelsea-boots_3Qh.webp"},
     { id: 51, name: "Clarks Genuine Leather Slip On Official Boots", price: 36.91538461538461 * 130, image: "assets/clarks-genuine-leather-slip-on-official-boots.webp"},
@@ -333,6 +333,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
