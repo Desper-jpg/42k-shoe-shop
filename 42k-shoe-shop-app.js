@@ -225,7 +225,7 @@ function checkout() {
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
   message += `\n\n💰 Total: KSh ${total.toLocaleString('en-KE')}\n\nThank you! 🙌`;
 
-  const whatsappNumber = '254795303336';
+  const whatsappNumber = '254794375020';
   const encodedMessage = encodeURIComponent(message);
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
@@ -344,6 +344,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
