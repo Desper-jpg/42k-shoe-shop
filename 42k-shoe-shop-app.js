@@ -68,7 +68,18 @@ const products = [
     { id: 66, name: "Dunk Low Grey Fog", price: 27.68461538461538 * 130, image: "assets/dunk-low-grey-fog.webp"},
     { id: 67, name: "Air Jordan-1 Low Black And White", price: 26.92307692307692 * 130, image: "assets/air-jordan-1-low-black-and-white.webp"},
     { id: 68, name: "Nocta X Nike Glide", price: 34.61538461538461 * 130, image: "assets/nocta-x-nike-glide.webp"},
-    { id: 69, name: "Nike Dunk Low(Active Fuchsia)", price: 23.84615384615384 * 130, image: "assets/Nike-Dunk-Low.jpg"}
+    { id: 69, name: "Nike Dunk Low(Active Fuchsia)", price: 23.84615384615384 * 130, image: "assets/Nike-Dunk-Low.jpg"},
+    { id: 70, name: "Slide Sandals", price: 20 * 130, image: "assets/slide-sandals.jpg"},
+    { id: 71, name: "Nike Dunk Low", price: 18.4615384615 * 130, image: "assets/Nike-Dunk-Low-(3).jpg"},
+    { id: 72, name: "Foam Clog", price: 11.5384615385 * 130, image: "assets/Foam-Clog.jpg"},
+    { id: 73, name: "Adidas Samba", price: 25.3769230769 * 130, image: "assets/Adidas-Samba.jpg"},
+    { id: 74, name: "Yeezy Foam Runner", price: 10 * 130, image: "assets/Yeezy-Foam-Runner.jpg"},
+    { id: 75, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez.jpg"},
+    { id: 76, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez-(2)"},
+    { id: 77, name: "Nike Air Max 720", price: 30.7692307692 * 130, image: "assets/Nike-Air-Max-720.jpg"},
+    { id: 78, name: "Air Jordan 13", price: 28.4615384615 * 130, image: "assets/Air-Jordan-13-Retro.jpg"},
+    { id: 79, name: "Air Jordan 11", price: 24.6153846154 * 130, image: "assets/Air-Jordan-11.jpg"},
+    { id: 80, name: "Nike Air Max 95", price: 25.3846153846 * 130, image: "assets/Nike-Air-Max-95.jpg"}
     
 ];
 
@@ -333,6 +344,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
