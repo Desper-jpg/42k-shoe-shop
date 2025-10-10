@@ -75,7 +75,7 @@ const products = [
     { id: 73, name: "Adidas Samba", price: 25.3769230769 * 130, image: "assets/Adidas-Samba.jpg"},
     { id: 74, name: "Yeezy Foam Runner", price: 10 * 130, image: "assets/Yeezy-Foam-Runner.jpg"},
     { id: 75, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez.jpg"},
-    { id: 76, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez-(2)"},
+    { id: 76, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez-(2).jpg"},
     { id: 77, name: "Nike Air Max 720", price: 30.7692307692 * 130, image: "assets/Nike-Air-Max-720.jpg"},
     { id: 78, name: "Air Jordan 13", price: 28.4615384615 * 130, image: "assets/Air-Jordan-13-Retro.jpg"},
     { id: 79, name: "Air Jordan 11", price: 24.6153846154 * 130, image: "assets/Air-Jordan-11.jpg"},
@@ -344,6 +344,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
