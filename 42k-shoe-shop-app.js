@@ -21,7 +21,7 @@ const products = [
     { id: 19, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
     { id: 20, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg"},
     { id: 21, name: "Customized Air Force 1", price: 21.53846153846153 * 130, image: "assets/customized-air-force-1.jpg"},
-    { id: 22, name: "Adidas Samba Double sole", price: 14.61538461538461 * 130, image: "assets/adidas-samba.jpg"},
+    { id: 22, name: "Adidas Samba Double sole", price: 21.53846153846153 * 130, image: "assets/adidas-samba.jpg"},
     { id: 23, name: "Men's Leather Sandal", price: 20 * 130, image: "assets/men's-leather-sandal-(2).jpg"},
     { id: 24, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-1.jpg"},
     { id: 25, name: "Air Jordan", price: 24.61538461538461 * 130, image: "assets/air-jordan.jpg"},
@@ -63,7 +63,7 @@ const products = [
     { id: 61, name: "Salomon X Ultra", price: 38.46153846153846 * 130, image: "assets/salomon-x-ultra.webp"},
     { id: 62, name: "Adidas Jeddens", price: 32.30769230769230 * 130, image: "assets/adidas-jeddens.webp"},
     { id: 63, name: "Nike Tn", price: 27.68461538461538 * 130, image: "assets/nike-tn.webp"},
-    { id: 64, name: "Adidas Samba", price: 16.92307692307692 * 130, image: "assets/adidas-samba.webp"},
+    { id: 64, name: "Adidas Samba", price: 18.46153846153846 * 130, image: "assets/adidas-samba.webp"},
     { id: 65, name: "Sb Chron", price: 29.99230769230769 * 130, image: "assets/sb-chron.webp"},
     { id: 66, name: "Dunk Low Grey Fog", price: 27.68461538461538 * 130, image: "assets/dunk-low-grey-fog.webp"},
     { id: 67, name: "Air Jordan-1 Low Black And White", price: 26.92307692307692 * 130, image: "assets/air-jordan-1-low-black-and-white.webp"},
@@ -72,7 +72,7 @@ const products = [
     { id: 70, name: "Slide Sandals", price: 20 * 130, image: "assets/slide-sandals.jpg"},
     { id: 71, name: "Nike Dunk Low", price: 18.4615384615 * 130, image: "assets/Nike-Dunk-Low-(3).jpg"},
     { id: 72, name: "Foam Clog", price: 11.5384615385 * 130, image: "assets/Foam-Clog.jpg"},
-    { id: 73, name: "Adidas Samba", price: 25.3769230769 * 130, image: "assets/Adidas-Samba.jpg"},
+    { id: 73, name: "Adidas Samba", price: 21.53846153846153 * 130, image: "assets/Adidas-Samba.jpg"},
     { id: 74, name: "Yeezy Foam Runner", price: 10 * 130, image: "assets/Yeezy-Foam-Runner.jpg"},
     { id: 75, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez.jpg"},
     { id: 76, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez-(2).jpg"},
@@ -344,6 +344,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
