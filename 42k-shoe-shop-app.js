@@ -79,7 +79,10 @@ const products = [
     { id: 77, name: "Nike Air Max 720", price: 30.7692307692 * 130, image: "assets/Nike-Air-Max-720.jpg"},
     { id: 78, name: "Air Jordan 13", price: 28.4615384615 * 130, image: "assets/Air-Jordan-13-Retro.jpg"},
     { id: 79, name: "Air Jordan 11", price: 24.6153846154 * 130, image: "assets/Air-Jordan-11.jpg"},
-    { id: 80, name: "Nike Zoom X", price: 25.3846153846 * 130, image: "assets/Nike-Zoom-X.jpg"}
+    { id: 80, name: "Nike Zoom X", price: 25.3846153846 * 130, image: "assets/Nike-Zoom-X.jpg"},
+    { id: 81, name: "Nike Cortez", price: 23.8461538462 * 130, image: "assets/Nike-Cortez.jpg"},
+    { id: 82, name: "Timberland", price: 32.3076923077 * 130, image: "assets/Timberland.jpg"},
+    { id: 83, name: "Black & White Air Force 1", price: 26.1538461538 * 130, image: "assets/Black-&-White-Air-Force-1.jpg"}
     
 ];
 
@@ -344,6 +347,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
