@@ -6,7 +6,7 @@ const products = [
     { id: 4, name: "vans", price: 17.6923076923 * 130, image: "assets/vans.jpg" },
     { id: 5, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Naked wolfe", price: 23.07692307692307 * 130, image: "assets/naked-wolfe.jpg" },
-    { id: 7, name: "Vapor Max", price: 29.99230769230769 * 130, image: "assets/vapor-max.jpg" },
+    { id: 7, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg" },
     { id: 8, name: "jordan", price: 19.22307692307692 * 130, image: "assets/jordan.jpeg" },
     { id: 9, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
     { id: 10, name: "puma Palermo", price: 15.38461538461538 * 130, image: "assets/puma-palermo.jpg" },
@@ -347,6 +347,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
