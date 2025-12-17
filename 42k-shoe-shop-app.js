@@ -1,7 +1,7 @@
 // Sample Product Data (Fixed image paths and consistent formatting)
 const products = [
     { id: 1, name: "air max", price: 23.0769230769 * 130, image: "assets/air-max.jpeg" },
-    { id: 2, name: "adidas ultraboost", price: 27.69230769230769 * 130, image: "assets/adidas-ultraboost.jpg" },
+    { id: 2, name: "Dr. Martins", price: 24.6153846154 * 130, image: "assets/Dr.Martins"},
     { id: 3, name: "air force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
     { id: 4, name: "vans", price: 17.6923076923 * 130, image: "assets/vans.jpg" },
     { id: 5, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg" },
@@ -82,7 +82,9 @@ const products = [
     { id: 80, name: "Nike Zoom X", price: 25.3846153846 * 130, image: "assets/Nike-Zoom-X.jpg"},
     { id: 81, name: "Cortez", price: 23.8461538462 * 130, image: "assets/Cortez.jpg"},
     { id: 82, name: "Timberland", price: 32.3076923077 * 130, image: "assets/Timberland.jpg"},
-    { id: 83, name: "Black & White Air Force 1", price: 26.1538461538 * 130, image: "assets/Black-&-White-Air-Force-1.jpg"}
+    { id: 83, name: "Black & White Air Force 1", price: 26.1538461538 * 130, image: "assets/Black-&-White-Air-Force-1.jpg"},
+    { id: 84, name: "adidas ultraboost", price: 27.69230769230769 * 130, image: "assets/adidas-ultraboost.jpg" },
+    { id: 85, name:
     
 ];
 
@@ -347,6 +349,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
