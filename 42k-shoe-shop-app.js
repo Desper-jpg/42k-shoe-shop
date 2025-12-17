@@ -83,8 +83,7 @@ const products = [
     { id: 81, name: "Cortez", price: 23.8461538462 * 130, image: "assets/Cortez.jpg"},
     { id: 82, name: "Timberland", price: 32.3076923077 * 130, image: "assets/Timberland.jpg"},
     { id: 83, name: "Black & White Air Force 1", price: 26.1538461538 * 130, image: "assets/Black-&-White-Air-Force-1.jpg"},
-    { id: 84, name: "adidas ultraboost", price: 27.69230769230769 * 130, image: "assets/adidas-ultraboost.jpg" },
-    { id: 85, name:
+    { id: 84, name: "adidas ultraboost", price: 27.69230769230769 * 130, image: "assets/adidas-ultraboost.jpg" }
     
 ];
 
@@ -349,6 +348,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
