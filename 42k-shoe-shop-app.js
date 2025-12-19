@@ -5,7 +5,7 @@ const products = [
     { id: 3, name: "air force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
     { id: 4, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-Max-97.jpg"},
     { id: 5, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg" },
-    { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/New-Shox.jpeg"},
+    { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
     { id: 7, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg" },
     { id: 8, name: "jordan", price: 19.22307692307692 * 130, image: "assets/jordan.jpeg" },
     { id: 9, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
