@@ -244,6 +244,13 @@ nav {
   opacity: 0.9;
 }
 
+.hero-image {
+  max-width: 420px;
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
 .btn-shop {
   margin-top: 25px;
   padding: 12px 28px;
@@ -684,6 +691,7 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+
 
 
 
