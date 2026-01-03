@@ -22,7 +22,7 @@ const products = [
     { id: 20, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg"},
     { id: 21, name: "Customized Air Force 1", price: 21.53846153846153 * 130, image: "assets/customized-air-force-1.jpg"},
     { id: 22, name: "Adidas Samba Double sole", price: 21.53846153846153 * 130, image: "assets/adidas-samba.jpg"},
-    { id: 23, name: "Men's Leather Sandal", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal-(2).jpg"},
+    { id: 23, name: "Men's Leather Sandal (Out Of Stock)", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal-(2).jpg"},
     { id: 24, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-1.jpg"},
     { id: 25, name: "Air Jordan", price: 24.61538461538461 * 130, image: "assets/air-jordan.jpg"},
     { id: 26, name: "Air Max 95", price: 26.92307692307692 * 130, image: "assets/air-max-95.jpg"},
@@ -31,7 +31,7 @@ const products = [
     { id: 29, name: "Black & White Vans", price: 18.45384615384615 * 130, image: "assets/black-&-white-vans.jpg"},
     { id: 30, name: "Black Men Leather Shoe", price: 23.07692307692307 * 130, image: "assets/black-men-leather-shoe.jpg"},
     { id: 31, name: "D&G Platform Lowtop", price: 23.07692307692307 * 130, image: "assets/d&g-platform-low-top.jpg"},
-    { id: 32, name: "Men's Leather Sandal", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal.jpg"},
+    { id: 32, name: "Men's Leather Sandal (Out Of Stock )", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal.jpg"},
     { id: 33, name: "Men's Leather Shoe", price: 30.76923076923076 * 130, image: "assets/men's-leather-shoe.jpg"},
     { id: 34, name: "New Balance 990v3", price: 20.76153846153846 * 130, image: "assets/new-balance-990v3.jpg"},
     { id: 35, name: "Nike Air Force", price: 18.46153846153846 * 130, image: "assets/nike-air-force.jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
