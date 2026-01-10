@@ -350,10 +350,21 @@ nav {
 /* ===================== PAGINATION ===================== */
 .pagination {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
   gap: 12px;
+  margin-top: 40px;
+
+  overflow-x: auto;          /* allow horizontal scroll on mobile */
+  white-space: nowrap;
+  padding: 10px 8px;
+
+  justify-content: flex-start; /* important for mobile */
+  scrollbar-width: none;      /* Firefox */
 }
+
+.pagination::-webkit-scrollbar {
+  display: none;              /* Chrome, Safari */
+}
+
 
 .pagination button {
   padding: 10px 18px;
@@ -684,6 +695,7 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+
 
 
 
