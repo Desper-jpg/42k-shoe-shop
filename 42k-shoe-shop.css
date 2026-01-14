@@ -695,6 +695,26 @@ body.dark-mode footer {
   background: #1e1e1e;
   color: #f1f1f1;
 }
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 16px;
+  }
+
+  .dark-toggle {
+    margin-left: 0;
+  }
+}
+
+.pagination {
+  max-width: 100%;
+}
+
 
 
 
