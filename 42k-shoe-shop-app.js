@@ -22,7 +22,7 @@ const products = [
     { id: 20, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg"},
     { id: 21, name: "Customized Air Force 1", price: 21.53846153846153 * 130, image: "assets/customized-air-force-1.jpg"},
     { id: 22, name: "Adidas Samba Double sole", price: 21.53846153846153 * 130, image: "assets/adidas-samba.jpg"},
-    { id: 23, name: "Men's Leather Sandal (Out Of Stock)", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal-(2).jpg"},
+    { id: 23, name: "Vans", price: 15.3846153846 * 130, image: "assets/Vans.jpg"},
     { id: 24, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-1.jpg"},
     { id: 25, name: "Air Jordan", price: 24.61538461538461 * 130, image: "assets/air-jordan.jpg"},
     { id: 26, name: "Air Max 95", price: 26.92307692307692 * 130, image: "assets/air-max-95.jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
