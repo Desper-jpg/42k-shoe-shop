@@ -30,7 +30,7 @@ const products = [
     { id: 28, name: "Bape sta", price: 19.23076923076923 * 130, image: "assets/bapesta.jpg"},
     { id: 29, name: "Black & Green Vans", price: 18.45384615384615 * 130, image: "assets/black-&-white-vans.jpg"},
     { id: 30, name: "Black Men Leather Shoe", price: 23.07692307692307 * 130, image: "assets/black-men-leather-shoe.jpg"},
-    { id: 31, name: "D&G Platform Lowtop", price: 23.07692307692307 * 130, image: "assets/d&g-platform-low-top.jpg"},
+    { id: 31, name: "D&G Platform Lowtop", price: 20 * 130, image: "assets/d&g-platform-low-top.jpg"},
     { id: 32, name: "Men's Leather Sandal (Out Of Stock )", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal.jpg"},
     { id: 33, name: "Men's Leather Shoe", price: 30.76923076923076 * 130, image: "assets/men's-leather-shoe.jpg"},
     { id: 34, name: "New Balance 990v3", price: 20.76153846153846 * 130, image: "assets/new-balance-990v3.jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
