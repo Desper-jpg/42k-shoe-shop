@@ -28,7 +28,7 @@ const products = [
     { id: 26, name: "Air Max 95", price: 26.92307692307692 * 130, image: "assets/air-max-95.jpg"},
     { id: 27, name: "Aldo Men's Shoe", price: 23.07692307692307 * 130, image: "assets/aldo-men-shoe.jpg"},
     { id: 28, name: "Bape sta", price: 19.23076923076923 * 130, image: "assets/bapesta.jpg"},
-    { id: 29, name: "Black & White Vans", price: 18.45384615384615 * 130, image: "assets/black-&-white-vans.jpg"},
+    { id: 29, name: "Black & Green Vans", price: 18.45384615384615 * 130, image: "assets/black-&-white-vans.jpg"},
     { id: 30, name: "Black Men Leather Shoe", price: 23.07692307692307 * 130, image: "assets/black-men-leather-shoe.jpg"},
     { id: 31, name: "D&G Platform Lowtop", price: 23.07692307692307 * 130, image: "assets/d&g-platform-low-top.jpg"},
     { id: 32, name: "Men's Leather Sandal (Out Of Stock )", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal.jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
