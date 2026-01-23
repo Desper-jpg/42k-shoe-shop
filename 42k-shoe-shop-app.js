@@ -39,7 +39,7 @@ const products = [
     { id: 37, name: "Sb Dunk Low", price: 20 * 130, image: "assets/sb-dunk-low.jpg"},
     { id: 38, name: "Timberland Loafer", price: 20.76153846153846 * 130, image: "assets/timberland-loafer.jpg"},
     { id: 39, name: "Vans Knu Skool", price: 14.61538461538461 * 130, image: "assets/vans-knu-skool.jpg"},
-    { id: 40, name: "Worrior Sandal", price: 10 * 130, image: "assets/worrior.jpg"},
+    { id: 40, name: "Nike portal Pink", price: 10 * 130, image: "assets/Nike-Portal-Pink.jpg"},
     { id: 41, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-97.jpg"},
     { id: 42, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-9-(2).jpg"},
     { id: 43, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-9-(3).jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
