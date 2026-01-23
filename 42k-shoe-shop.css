@@ -715,6 +715,40 @@ html, body {
   max-width: 100%;
 }
 
+/* ===================== IMAGE MODAL ===================== */
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 20000;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+.image-modal img {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: 12px;
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+/* Zoomed state */
+.image-modal img.zoomed {
+  transform: scale(1.8);
+  cursor: zoom-out;
+}
+
+.close-modal {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 
 
