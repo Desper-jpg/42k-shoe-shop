@@ -11,7 +11,7 @@ const products = [
     { id: 9, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
     { id: 10, name: "puma Palermo", price: 15.38461538461538 * 130, image: "assets/puma-palermo.jpg" },
     { id: 11, name: "Nike SB Dunk Low Pro", price: 19.22307692307692 * 130, image: "assets/nike-sb-dunk-low-pro.jpg" },
-    { id: 12, name: "Clark Wallabee", price: 30 * 130, image: "assets/clark-wallabee.jpg"},
+    { id: 12, name: "Clark Wallabee", price: 28.4538461538 * 130, image: "assets/clark-wallabee.jpg"},
     { id: 13, name: "Clark Wallabee", price: 26.1538461538 * 130, image: "assets/Clark-wallbees.jpg"},
     { id: 14, name: "White Air Force 1", price: 18.4615384615 * 130, image: "assets/white-air-force-1.jpg"},
     { id: 15, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
