@@ -344,21 +344,29 @@ function renderPaginationControls() {
 }
 function setupImageModal() {
   const modal = document.getElementById("imageModal");
-  const modalImg = modal.querySelector(".modal-image");
+  const modalImg = document.getElementById("modalImage");
   const closeBtn = modal.querySelector(".close-modal");
 
   document.querySelectorAll(".product-image").forEach(img => {
     img.addEventListener("click", () => {
       modal.style.display = "flex";
-      modalImg.src = img.dataset.image;
+      modalImg.src = img.src; // safer than dataset
     });
   });
 
-  closeBtn.onclick = () => modal.style.display = "none";
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+    modalImg.src = "";
+  };
+
   modal.onclick = (e) => {
-    if (e.target === modal) modal.style.display = "none";
+    if (e.target === modal) {
+      modal.style.display = "none";
+      modalImg.src = "";
+    }
   };
 }
+
 
 function searchProducts() {
   const searchTerm = document.getElementById('search-input').value.toLowerCase();
@@ -368,6 +376,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
