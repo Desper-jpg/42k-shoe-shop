@@ -20,16 +20,16 @@ const products = [
     { id: 18, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"},
     { id: 19, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
     { id: 20, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg"},
-    { id: 21, name: "Customized Air Force 1", price: 21.53846153846153 * 130, image: "assets/customized-air-force-1.jpg"},
+    { id: 21, name: "Customized Air Force 1", price: 23.0769230769 * 130, image: "assets/customized-air-force-1.jpg"},
     { id: 22, name: "Adidas Samba Double sole", price: 21.53846153846153 * 130, image: "assets/adidas-samba.jpg"},
     { id: 23, name: "Vans", price: 15.3846153846 * 130, image: "assets/Vans.jpg"},
     { id: 24, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-1.jpg"},
     { id: 25, name: "Air Jordan", price: 24.61538461538461 * 130, image: "assets/air-jordan.jpg"},
     { id: 26, name: "Air Max 95", price: 26.92307692307692 * 130, image: "assets/air-max-95.jpg"},
-    { id: 27, name: "Aldo Men's Shoe", price: 23.07692307692307 * 130, image: "assets/aldo-men-shoe.jpg"},
-    { id: 28, name: "Bape sta", price: 19.23076923076923 * 130, image: "assets/bapesta.jpg"},
-    { id: 29, name: "Black & Green Vans", price: 18.45384615384615 * 130, image: "assets/black-&-white-vans.jpg"},
-    { id: 30, name: "Black Men Leather Shoe", price: 23.07692307692307 * 130, image: "assets/black-men-leather-shoe.jpg"},
+    { id: 27, name: "Aldo Men's Shoe", price: 19.2307692308 * 130, image: "assets/aldo-men-shoe.jpg"},
+    { id: 28, name: "Bape sta", price: 22.3076923077 * 130, image: "assets/bapesta.jpg"},
+    { id: 29, name: "Black & Green Vans", price: 15.3846153846 * 130, image: "assets/black-&-white-vans.jpg"},
+    { id: 30, name: "Black Men Leather Shoe", price: 21.5384615385 * 130, image: "assets/black-men-leather-shoe.jpg"},
     { id: 31, name: "D&G Platform Lowtop", price: 20 * 130, image: "assets/d&g-platform-low-top.jpg"},
     { id: 32, name: "Men's Leather Sandal (Out Of Stock )", price: 13.06923076923076 * 130, image: "assets/men's-leather-sandal.jpg"},
     { id: 33, name: "Men's Leather Shoe", price: 30.76923076923076 * 130, image: "assets/men's-leather-shoe.jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
