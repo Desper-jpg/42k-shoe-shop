@@ -1,6 +1,6 @@
 // Sample Product Data (Fixed image paths and consistent formatting)
 const products = [
-    { id: 1, name: "air max", price: 23.0769230769 * 130, image: "assets/air-max.jpeg" },
+    { id: 1, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" },
     { id: 2, name: "Dr. Martins", price: 24.6153846154 * 130, image: "assets/Dr-Martins.jpg" },
     { id: 3, name: "air force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
     { id: 4, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-Max-97.jpg"},
@@ -377,6 +377,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
