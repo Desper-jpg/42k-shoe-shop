@@ -268,7 +268,7 @@ function renderPaginatedProducts() {
 
   DOM.productGrid.innerHTML = paginatedProducts.map(product => `
     <div class="product-card">
-      <img src="${product.image}" alt="${product.name}"
+      <img src="${product.image}" alt="${product.name}" class="product-image" data-image="${product.image}"
            onerror="this.src='https://via.placeholder.com/300'; this.alt='Image missing';">
       <div class="product-info">
         <h3 class="product-title">${product.name}</h3>
@@ -292,6 +292,7 @@ function renderPaginatedProducts() {
 
   bindAddToCartButtons(paginatedProducts);
   renderPaginationControls();
+  setupImageModal();
 }
 
 function bindAddToCartButtons(paginatedProducts) {
@@ -341,6 +342,23 @@ function renderPaginationControls() {
     paginationContainer.appendChild(next);
   }
 }
+function setupImageModal() {
+  const modal = document.getElementById("imageModal");
+  const modalImg = modal.querySelector(".modal-image");
+  const closeBtn = modal.querySelector(".close-modal");
+
+  document.querySelectorAll(".product-image").forEach(img => {
+    img.addEventListener("click", () => {
+      modal.style.display = "flex";
+      modalImg.src = img.dataset.image;
+    });
+  });
+
+  closeBtn.onclick = () => modal.style.display = "none";
+  modal.onclick = (e) => {
+    if (e.target === modal) modal.style.display = "none";
+  };
+}
 
 function searchProducts() {
   const searchTerm = document.getElementById('search-input').value.toLowerCase();
@@ -350,6 +368,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
