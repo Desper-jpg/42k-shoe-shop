@@ -349,6 +349,7 @@ function setupImageModal() {
 
   document.querySelectorAll(".product-image").forEach(img => {
     img.addEventListener("click", () => {
+      console.log("IMAGE CLICKED:", img.src);
       modal.style.display = "flex";
       modalImg.src = img.src; // safer than dataset
     });
@@ -376,6 +377,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
