@@ -4,7 +4,7 @@ const products = [
     { id: 2, name: "Dr. Martins", price: 24.6153846154 * 130, image: "assets/Dr-Martins.jpg" },
     { id: 3, name: "air force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
     { id: 4, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-Max-97.jpg"},
-    { id: 5, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg" },
+    { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
     { id: 7, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg" },
     { id: 8, name: "Air jordan 11", price: 26.1538461538 * 130, image: "assets/Air-Jordan-11.jpg" },
@@ -19,11 +19,11 @@ const products = [
     { id: 17, name: "Prada Thunder", price: 44.60769230769230 * 130, image: "assets/prada-thunder.jpg"},
     { id: 18, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"},
     { id: 19, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
-    { id: 20, name: "New Balance", price: 26.1538461538 * 130, image: "assets/new-balance.jpg"},
+    { id: 20, name: "Single Sole Samba", price: 19.2307692308 * 130, image: "assets/Single-Sole-Samba.jpg"},
     { id: 21, name: "Customized Air Force 1", price: 23.0769230769 * 130, image: "assets/customized-air-force-1.jpg"},
-    { id: 22, name: "Adidas Samba Double sole", price: 21.53846153846153 * 130, image: "assets/adidas-samba.jpg"},
+    { id: 22, name: "Adidas Samba Double sole", price: 20 * 130, image: "assets/adidas-samba.jpg"},
     { id: 23, name: "Vans", price: 15.3846153846 * 130, image: "assets/Vans.jpg"},
-    { id: 24, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-1.jpg"},
+    { id: 24, name: "Air Force 1", price: 21.53846153846153 * 130, image: "assets/air-force-1.jpg"},
     { id: 25, name: "Air Jordan", price: 24.61538461538461 * 130, image: "assets/air-jordan.jpg"},
     { id: 26, name: "Air Max 95", price: 26.92307692307692 * 130, image: "assets/air-max-95.jpg"},
     { id: 27, name: "Aldo Men's Shoe", price: 19.2307692308 * 130, image: "assets/aldo-men-shoe.jpg"},
@@ -39,7 +39,7 @@ const products = [
     { id: 37, name: "Sb Dunk Low", price: 20 * 130, image: "assets/sb-dunk-low.jpg"},
     { id: 38, name: "Timberland Loafer", price: 20.76153846153846 * 130, image: "assets/timberland-loafer.jpg"},
     { id: 39, name: "Vans Knu Skool", price: 14.61538461538461 * 130, image: "assets/vans-knu-skool.jpg"},
-    { id: 40, name: "Nike portal Pink", price: 10 * 130, image: "assets/Nike-Portal-Pink.jpg"},
+    { id: 40, name: "Nike portal Pink", price: 24.6153846154 * 130, image: "assets/Nike-Portal-Pink.jpg"},
     { id: 41, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-97.jpg"},
     { id: 42, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-9-(2).jpg"},
     { id: 43, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-9-(3).jpg"},
@@ -350,6 +350,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
