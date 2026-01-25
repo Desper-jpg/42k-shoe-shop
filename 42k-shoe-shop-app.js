@@ -2,7 +2,7 @@
 const products = [
     { id: 1, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" },
     { id: 2, name: "Dr. Martins", price: 24.6153846154 * 130, image: "assets/Dr-Martins.jpg" },
-    { id: 3, name: "air force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
+    { id: 3, name: "Berluti Casuals", price: 26.1538461538 * 130, image: "assets/Berluti-Casuals-(3).jpeg" },
     { id: 4, name: "Air Max TI", price: 27.6923076923 * 130, image: "assets/Air-Max-TI.jpg"},
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
@@ -86,7 +86,8 @@ const products = [
     { id: 84, name: "adidas ultraboost", price: 27.69230769230769 * 130, image: "assets/adidas-ultraboost.jpg"},
     { id: 85, name: "vans", price: 17.6923076923 * 130, image: "assets/vans.jpg"},
     { id: 86, name: "Naked wolfe", price: 23.07692307692307 * 130, image: "assets/naked-wolfe.jpg" },
-    { id: 87, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-Max-97.jpg" }
+    { id: 87, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-Max-97.jpg" },
+    { id: 88, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" }
     
 ];
 
@@ -378,6 +379,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
