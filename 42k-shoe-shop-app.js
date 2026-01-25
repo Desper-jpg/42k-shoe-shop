@@ -2,7 +2,7 @@
 const products = [
     { id: 1, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" },
     { id: 2, name: "Single Sole Samba", price: 19.2307692308 * 130, image: "assets/Single-Sole-Samba.jpg"},
-    { id: 3, name: "Berluti Casuals", price: 21.5384615385 * 130, image: "assets/Berluti-Casuals-(3).jpeg" },
+    { id: 3, name: "Berluti Casuals", price: 23.0769230769 * 130, image: "assets/Berluti-Casuals-(3).jpeg" },
     { id: 4, name: "Air Max TI", price: 27.6923076923 * 130, image: "assets/Air-Max-TI.jpg"},
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
@@ -15,7 +15,7 @@ const products = [
     { id: 13, name: "Clark Wallabee", price: 26.1538461538 * 130, image: "assets/Clark-wallbees.jpg"},
     { id: 14, name: "White Air Force 1", price: 18.4615384615 * 130, image: "assets/white-air-force-1.jpg"},
     { id: 15, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
-    { id: 16, name: "Vans", price: 15.38461538461538 * 130, image: "assets/vans.jpg"},
+    { id: 16, name: "Lacoste Casuals", price: 20 * 130, image: "assets/Lacoste-Casuals.jpeg"},
     { id: 17, name: "Prada Thunder", price: 44.60769230769230 * 130, image: "assets/prada-thunder.jpg"},
     { id: 18, name: "Berluti Casuals", price: 26.1538461538 * 130, image: "assets/Berluti-Casuals-(2).jpeg"},
     { id: 19, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
@@ -380,6 +380,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
