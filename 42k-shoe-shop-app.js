@@ -1,7 +1,7 @@
 // Sample Product Data (Fixed image paths and consistent formatting)
 const products = [
     { id: 1, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" },
-    { id: 2, name: "Dr. Martins", price: 24.6153846154 * 130, image: "assets/Dr-Martins.jpg" },
+    { id: 2, name: "Single Sole Samba", price: 19.2307692308 * 130, image: "assets/Single-Sole-Samba.jpg"},
     { id: 3, name: "Berluti Casuals", price: 21.5384615385 * 130, image: "assets/Berluti-Casuals-(3).jpeg" },
     { id: 4, name: "Air Max TI", price: 27.6923076923 * 130, image: "assets/Air-Max-TI.jpg"},
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
@@ -17,9 +17,9 @@ const products = [
     { id: 15, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
     { id: 16, name: "Vans", price: 15.38461538461538 * 130, image: "assets/vans.jpg"},
     { id: 17, name: "Prada Thunder", price: 44.60769230769230 * 130, image: "assets/prada-thunder.jpg"},
-    { id: 18, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"},
+    { id: 18, name: "Berluti Casuals", price: 26.1538461538 * 130, image: "assets/Berluti-Casuals-(2).jpeg"},
     { id: 19, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
-    { id: 20, name: "Single Sole Samba", price: 19.2307692308 * 130, image: "assets/Single-Sole-Samba.jpg"},
+    { id: 20, name: "Dr. Martins", price: 24.6153846154 * 130, image: "assets/Dr-Martins.jpg" },
     { id: 21, name: "Customized Air Force 1", price: 23.0769230769 * 130, image: "assets/customized-air-force-1.jpg"},
     { id: 22, name: "Adidas Samba Double sole", price: 20 * 130, image: "assets/adidas-samba.jpg"},
     { id: 23, name: "Vans", price: 15.3846153846 * 130, image: "assets/Vans.jpg"},
@@ -87,7 +87,8 @@ const products = [
     { id: 85, name: "vans", price: 17.6923076923 * 130, image: "assets/vans.jpg"},
     { id: 86, name: "Naked wolfe", price: 23.07692307692307 * 130, image: "assets/naked-wolfe.jpg" },
     { id: 87, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-Max-97.jpg" },
-    { id: 88, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" }
+    { id: 88, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
+    { id: 89, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"} 
     
 ];
 
@@ -379,6 +380,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
