@@ -8,17 +8,17 @@ const products = [
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
     { id: 7, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg" },
     { id: 8, name: "Air jordan 11", price: 26.1538461538 * 130, image: "assets/Air-Jordan-11.jpg" },
-    { id: 9, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
+    { id: 9, name: "New Balance 9060 Jungle Gree", price: 27.6923076923 * 130, image: "assets/New-Balance-9060-Jungle-Gree.jpeg" }, 
     { id: 10, name: "puma Palermo", price: 15.38461538461538 * 130, image: "assets/puma-palermo.jpg" },
     { id: 11, name: "Nike SB Dunk Low Pro", price: 19.22307692307692 * 130, image: "assets/nike-sb-dunk-low-pro.jpg" },
     { id: 12, name: "Clark Wallabee", price: 28.4538461538 * 130, image: "assets/clark-wallabee.jpg"},
     { id: 13, name: "Clark Wallabee", price: 26.1538461538 * 130, image: "assets/Clark-wallbees.jpg"},
     { id: 14, name: "White Air Force 1", price: 18.4615384615 * 130, image: "assets/white-air-force-1.jpg"},
-    { id: 15, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
+    { id: 15, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
     { id: 16, name: "Lacoste Casuals", price: 20 * 130, image: "assets/Lacoste-Casuals.jpeg"},
     { id: 17, name: "Prada Thunder", price: 44.60769230769230 * 130, image: "assets/prada-thunder.jpg"},
     { id: 18, name: "Berluti Casuals", price: 26.1538461538 * 130, image: "assets/Berluti-Casuals-(2).jpeg"},
-    { id: 19, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
+    { id: 19, name: "New Balance 9060 Black Yellow", price: 27.6923076923 * 130, image: "assets/New-Balance-9060-Black-Yellow.jpeg" },
     { id: 20, name: "Dr. Martins", price: 24.6153846154 * 130, image: "assets/Dr-Martins.jpg" },
     { id: 21, name: "Customized Air Force 1", price: 23.0769230769 * 130, image: "assets/customized-air-force-1.jpg"},
     { id: 22, name: "Adidas Samba Double sole", price: 20 * 130, image: "assets/adidas-samba.jpg"},
@@ -88,7 +88,9 @@ const products = [
     { id: 86, name: "Naked wolfe", price: 23.07692307692307 * 130, image: "assets/naked-wolfe.jpg" },
     { id: 87, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-Max-97.jpg" },
     { id: 88, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
-    { id: 89, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"} 
+    { id: 89, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"},
+    { id: 90, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
+    { id: 91, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"}
     
 ];
 
@@ -380,6 +382,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
