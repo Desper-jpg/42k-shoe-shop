@@ -46,7 +46,7 @@ const products = [
     { id: 44, name: "Adidas Gazelle ", price: 22.30769230769230 * 130, image: "assets/Adidas-Gazelle-(2).jpg"},
     { id: 45, name: "Suede Clogs ", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(2).jpg"},
     { id: 46, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(3).jpg"},
-    { id: 47, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(4).jpg"},
+    { id: 47, name: "Designer Casuals", price: 20.7692307692 * 130, image: "assets/designer-casuals-(2).jpeg"},
     { id: 48, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs.jpg"},
     { id: 49, name: "Timberland Leather Boots", price: 38.46153846153846 * 130, image: "assets/timberland-leather-boots.webp"},
     { id: 50, name: "Chelsea Boots 3Qh", price: 38.46153846153846 * 130, image: "assets/chelsea-boots_3Qh.webp"},
@@ -92,7 +92,8 @@ const products = [
     { id: 90, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
     { id: 91, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
     { id: 92, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg"},
-    { id: 93, name: "Clark Wallabee", price: 28.4538461538 * 130, image: "assets/clark-wallabee.jpg"}
+    { id: 93, name: "Clark Wallabee", price: 28.4538461538 * 130, image: "assets/clark-wallabee.jpg"},
+    { id: 94, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(4).jpg"}
     
 ];
 
@@ -384,6 +385,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
