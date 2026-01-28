@@ -6,7 +6,7 @@ const products = [
     { id: 4, name: "Air Max TI", price: 27.6923076923 * 130, image: "assets/Air-Max-TI.jpg"},
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
-    { id: 7, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg" },
+    { id: 7, name: "New Balance 530 Black & White", price: 20 * 130, image: "assets/New-Balance-530-black-&-white.jpeg"},
     { id: 8, name: "Air jordan 11", price: 26.1538461538 * 130, image: "assets/Air-Jordan-11.jpg" },
     { id: 9, name: "New Balance 9060 Jungle Green", price: 27.6923076923 * 130, image: "assets/New-Balance-9060-Jungle-Green.jpeg" }, 
     { id: 10, name: "puma Palermo", price: 15.38461538461538 * 130, image: "assets/puma-palermo.jpg" },
@@ -90,7 +90,8 @@ const products = [
     { id: 88, name: "Air Force 1", price: 20 * 130, image: "assets/air-force-3.jpeg" },
     { id: 89, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"},
     { id: 90, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
-    { id: 91, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"}
+    { id: 91, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
+    { id: 92, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/Vapor-Max.jpg"}
     
 ];
 
@@ -382,6 +383,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
