@@ -91,7 +91,7 @@ const products = [
     { id: 89, name: "White Prada Thunder", price: 44.61538461538461 * 130, image: "assets/white-prada-thunder.jpg"},
     { id: 90, name: "Blade max sport", price: 21.53846153846153 * 130, image: "assets/blade-max-sport.jpg" },
     { id: 91, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
-    { id: 92, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/Vapor-Max.jpg"}
+    { id: 92, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg"}
     
 ];
 
@@ -383,6 +383,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
