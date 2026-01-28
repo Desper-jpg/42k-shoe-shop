@@ -6,7 +6,7 @@ const products = [
     { id: 4, name: "Air Max TI", price: 27.6923076923 * 130, image: "assets/Air-Max-TI.jpg"},
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
-    { id: 7, name: "New Balance 530 Black & White", price: 20 * 130, image: "assets/New-Balance-530-black-&-white.jpeg"},
+    { id: 7, name: "New Balance 530 Black & White", price: 20 * 130, image: "assets/New-Balance-530.jpeg"},
     { id: 8, name: "Air jordan 11", price: 26.1538461538 * 130, image: "assets/Air-Jordan-11.jpg" },
     { id: 9, name: "New Balance 9060 Jungle Green", price: 27.6923076923 * 130, image: "assets/New-Balance-9060-Jungle-Green.jpeg" }, 
     { id: 10, name: "puma Palermo", price: 15.38461538461538 * 130, image: "assets/puma-palermo.jpg" },
@@ -383,6 +383,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
