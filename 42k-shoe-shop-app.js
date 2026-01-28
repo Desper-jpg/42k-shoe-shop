@@ -48,20 +48,20 @@ const products = [
     { id: 46, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(3).jpg"},
     { id: 47, name: "Designer Casuals", price: 20.7692307692 * 130, image: "assets/designer-casuals-(2).jpeg"},
     { id: 48, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs.jpg"},
-    { id: 49, name: "Timberland Leather Boots", price: 38.46153846153846 * 130, image: "assets/timberland-leather-boots.webp"},
-    { id: 50, name: "Chelsea Boots 3Qh", price: 38.46153846153846 * 130, image: "assets/chelsea-boots_3Qh.webp"},
-    { id: 51, name: "Clarks Genuine Leather Slip On Official Boots", price: 36.91538461538461 * 130, image: "assets/clarks-genuine-leather-slip-on-official-boots.webp"},
-    { id: 52, name: "Crocodile Mules", price: 29.22307692307692 * 130, image: "assets/crocodile-mules.webp"},
-    { id: 53, name: "Brown Leather Slipon Official Shoes", price: 34.60769230769230 * 130, image: "assets/brown-leather-slipon-official-shoes.webp"},
-    { id: 54, name: "Double Monk Strap Official Shoes", price: 34.61538461538461 * 130, image: "assets/double-monk-strap-official-shoes.webp"},
-    { id: 55, name: "Leather Cap-toe Official Shoes", price: 34.61538461538461 * 130, image: "assets/leather-cap-toe-official-shoes.webp"},
-    { id: 56, name: "Clarks Leather Oxford Shoes", price: 34.61538461538461 * 130, image: "assets/clarks-leather-oxford-shoes.webp"},
+    { id: 49, name: "Timberland Leather Boots", price: 24.6153846154 * 130, image: "assets/timberland-leather-boots.webp"},
+    { id: 50, name: "Chelsea Boots 3Qh", price: 20.7692307692 * 130, image: "assets/chelsea-boots_3Qh.webp"},
+    { id: 51, name: "Clarks Genuine Leather Slip On Official Boots", price: 23.0769230769 * 130, image: "assets/clarks-genuine-leather-slip-on-official-boots.webp"},
+    { id: 52, name: "Crocodile Mules", price: 19.2307692308 * 130, image: "assets/crocodile-mules.webp"},
+    { id: 53, name: "Brown Leather Slipon Official Shoes", price: 20 * 130, image: "assets/brown-leather-slipon-official-shoes.webp"},
+    { id: 54, name: "Double Monk Strap Official Shoes", price: 21.5384615385 * 130, image: "assets/double-monk-strap-official-shoes.webp"},
+    { id: 55, name: "Leather Cap-toe Official Shoes", price: 20 * 130, image: "assets/leather-cap-toe-official-shoes.webp"},
+    { id: 56, name: "Clarks Leather Oxford Shoes", price: 16.1538461538 * 130, image: "assets/clarks-leather-oxford-shoes.webp"},
     { id: 57, name: "Nike Shox Thermocreative", price: 33.07692307692307 * 130, image: "assets/nike-shox-thermocreative.webp"},
     { id: 58, name: "Air Force 1 Valentines Pink", price: 26.92307692307692 * 130, image: "assets/air-force-1-valentines-pink.webp"},
     { id: 59, name: "Yezzy 700", price: 30.76153846153846 * 130, image: "assets/yezzy-700.webp"},
-    { id: 60, name: "Salomon Xa Pro 3d", price: 34.61538461538461 * 130, image: "assets/salomon-xa-pro-3d.webp"},
-    { id: 61, name: "Salomon X Ultra", price: 38.46153846153846 * 130, image: "assets/salomon-x-ultra.webp"},
-    { id: 62, name: "Adidas Jeddens", price: 32.30769230769230 * 130, image: "assets/adidas-jeddens.webp"},
+    { id: 60, name: "Salomon Xa Pro 3d", price: 26.1538461538 * 130, image: "assets/salomon-xa-pro-3d.webp"},
+    { id: 61, name: "Salomon X Ultra", price: 27.6923076923 * 130, image: "assets/salomon-x-ultra.webp"},
+    { id: 62, name: "Adidas Jeddens", price: 21.5384615385 * 130, image: "assets/adidas-jeddens.webp"},
     { id: 63, name: "Nike Tn", price: 27.68461538461538 * 130, image: "assets/nike-tn.webp"},
     { id: 64, name: "Adidas Samba", price: 18.46153846153846 * 130, image: "assets/adidas-samba.webp"},
     { id: 65, name: "Sb Chron", price: 29.99230769230769 * 130, image: "assets/sb-chron.webp"},
@@ -385,6 +385,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
