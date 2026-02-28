@@ -6,7 +6,7 @@ const products = [
     { id: 4, name: "Air Max TI", price: 27.6923076923 * 130, image: "assets/Air-Max-TI.jpg"},
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
-    { id: 7, name: "New Balance 530 Black & White", price: 21.5384615385 * 130, image: "assets/New-Balance-530.jpeg"},
+    { id: 7, name: "Adidas Campus", price: 16.9230769231 * 130, image: "assets/adidas-campus.jpg"},
     { id: 8, name: "Air jordan 11", price: 26.1538461538 * 130, image: "assets/Air-Jordan-11.jpg" },
     { id: 9, name: "New Balance 9060 Jungle Green", price: 27.6923076923 * 130, image: "assets/New-Balance-9060-Jungle-Green.jpeg" }, 
     { id: 10, name: "puma Palermo", price: 15.38461538461538 * 130, image: "assets/puma-palermo.jpg" },
@@ -72,7 +72,7 @@ const products = [
     { id: 70, name: "Slide Sandals", price: 24.6153846154 * 130, image: "assets/slide-sandals.jpg"},
     { id: 71, name: "Nike Dunk Low", price: 18.4615384615 * 130, image: "assets/Nike-Dunk-Low-(3).jpg"},
     { id: 72, name: "Foam Clog", price: 7.69230769231 * 130, image: "assets/Foam-Clog.jpg"},
-    { id: 73, name: "Adidas Samba", price: 16.9230769231 * 130, image: "assets/Adidas-Samba.jpg"},
+    { id: 73, name: "New Balance 530 Black & White", price: 21.5384615385 * 130, image: "assets/New-Balance-530.jpeg"},
     { id: 74, name: "Yeezy Foam Runner", price: 10 * 130, image: "assets/Yeezy-Foam-Runner.jpg"},
     { id: 75, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez.jpg"},
     { id: 76, name: "Nike Cortez", price: 23.0769230769 * 130, image: "assets/Nike-Cortez-(2).jpg"},
@@ -385,6 +385,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
