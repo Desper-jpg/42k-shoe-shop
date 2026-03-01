@@ -46,10 +46,10 @@ nav {
   box-shadow: var(--shadow);
 }
 
-.logo {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--primary);
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
 }
 
 /* Center the nav links (Home, Shop, Contact) */
@@ -748,6 +748,7 @@ html, body {
   color: #fff;
   cursor: pointer;
 }
+
 
 
 
