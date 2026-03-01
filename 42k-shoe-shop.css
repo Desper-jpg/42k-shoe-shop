@@ -47,7 +47,7 @@ nav {
 }
 
 .logo img {
-  height: 60px;
+  height: 75px;
   width: auto;
   display: block;
 }
@@ -748,6 +748,7 @@ html, body {
   color: #fff;
   cursor: pointer;
 }
+
 
 
 
