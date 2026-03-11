@@ -3,7 +3,7 @@ const products = [
     { id: 1, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" },
     { id: 2, name: "Single Sole Samba", price: 16.9230769231 * 130, image: "assets/Single-Sole-Samba.jpg"},
     { id: 3, name: "Berluti Casuals", price: 23.0769230769 * 130, image: "assets/Berluti-Casuals-(3).jpeg" },
-    { id: 4, name: "Air Max TI", price: 27.6923076923 * 130, image: "assets/Air-Max-TI.jpg"},
+    { id: 4, name: "Air Max TI", price: 23.0769230769 * 130, image: "assets/Air-Max-TI.jpg"},
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
     { id: 7, name: "Adidas Campus", price: 16.9230769231 * 130, image: "assets/adidas-campus.jpg"},
@@ -385,6 +385,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
