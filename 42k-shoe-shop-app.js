@@ -7,7 +7,7 @@ const products = [
     { id: 5, name: "New Balance", price: 27.6923076923 * 130, image: "assets/new-balance.jpg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
     { id: 7, name: "Adidas Campus", price: 16.9230769231 * 130, image: "assets/adidas-campus.jpg"},
-    { id: 8, name: "Adidas Porsche Blue White", price: 21.5384615385 * 130, image: "assets/Adidas Porsche Blue White.jpeg" },
+    { id: 8, name: "Adidas Porsche Blue White", price: 21.5384615385 * 130, image: "assets/Adidas-Porsche-Blue-White.jpeg" },
     { id: 9, name: "New Balance 9060 Jungle Green", price: 27.6923076923 * 130, image: "assets/New-Balance-9060-Jungle-Green.jpeg" }, 
     { id: 10, name: "puma Palermo", price: 15.38461538461538 * 130, image: "assets/puma-palermo.jpg" },
     { id: 11, name: "Nike SB Dunk Low Pro", price: 19.22307692307692 * 130, image: "assets/nike-sb-dunk-low-pro.jpg" },
@@ -385,6 +385,7 @@ function searchProducts() {
   currentPage = 1;
   renderPaginatedProducts();
 }
+
 
 
 
