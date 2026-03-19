@@ -1,6 +1,6 @@
 // Sample Product Data (Fixed image paths and consistent formatting)
 const products = [
-    { id: 1, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" },
+    { id: 1, name: "Leather Converse", price: 10.7692307692 * 130, image: "assets/Leather-Converse.jpeg"},
     { id: 2, name: "Single Sole Samba", price: 16.9230769231 * 130, image: "assets/Single-Sole-Samba.jpg"},
     { id: 3, name: "Berluti Casuals", price: 23.0769230769 * 130, image: "assets/Berluti-Casuals-(3).jpeg" },
     { id: 4, name: "NB 530 Black & White", price: 23.0769230769 * 130, image: "assets/NB-530-Black-&-White.jpeg"},
@@ -14,7 +14,7 @@ const products = [
     { id: 12, name: "Designer Casuals", price: 20.7692307692 * 130, image: "assets/designer-casuals.jpeg"},
     { id: 13, name: "Asics  Gel-kayano 14", price: 21.5384615385 * 130, image: "assets/Asics-Gel-kayano-14.jpeg"},
     { id: 14, name: "White Air Force 1", price: 18.4615384615 * 130, image: "assets/white-air-force-1.jpg"},
-    { id: 15, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
+    { id: 15, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" } ,
     { id: 16, name: "Lacoste Casuals", price: 20 * 130, image: "assets/Lacoste-Casuals.jpeg"},
     { id: 17, name: "Prada Thunder", price: 44.60769230769230 * 130, image: "assets/prada-thunder.jpg"},
     { id: 18, name: "Berluti Casuals", price: 26.1538461538 * 130, image: "assets/Berluti-Casuals-(2).jpeg"},
@@ -93,7 +93,8 @@ const products = [
     { id: 91, name: "Clark Original", price: 26.92307692307692 * 130, image: "assets/clark-original.jpg"},
     { id: 92, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg"},
     { id: 93, name: "Clark Wallabee", price: 28.4538461538 * 130, image: "assets/clark-wallabee.jpg"},
-    { id: 94, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(4).jpg"}
+    { id: 94, name: "Suede Clogs", price: 23.84615384615384 * 130, image: "assets/suede-clogs-(4).jpg"},
+    { id: 95, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"} 
     
 ];
 
