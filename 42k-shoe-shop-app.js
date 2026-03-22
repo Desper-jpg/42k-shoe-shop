@@ -2,7 +2,7 @@
 const products = [
     { id: 1, name: "Leather Converse", price: 10.7692307692 * 130, image: "assets/Leather-Converse.jpeg"},
     { id: 2, name: "Single Sole Samba", price: 16.9230769231 * 130, image: "assets/Single-Sole-Samba.jpg"},
-    { id: 3, name: "Berluti Casuals", price: 23.0769230769 * 130, image: "assets/Berluti-Casuals-(3).jpeg" },
+    { id: 3, name: "Designer Casuals", price: 23.0769230769 * 130, image: "assets/designer-casuals-(3).jpeg" },
     { id: 4, name: "NB 530 Black & White", price: 23.0769230769 * 130, image: "assets/NB-530-Black-&-White.jpeg"},
     { id: 5, name: "Nike Tn Deadpool", price: 26.1538461538 * 130, image: "assets/Nike-Tn-Deadpool.jpeg" },
     { id: 6, name: "Nike Shox", price: 33.0769230769 * 130, image: "assets/Nike-Shox.jpeg"},
