@@ -11,7 +11,7 @@ const products = [
     { id: 9, name: "New Balance 9060 Jungle Green", price: 27.6923076923 * 130, image: "assets/New-Balance-9060-Jungle-Green.jpeg" }, 
     { id: 10, name: "Fabric Vans", price: 16.9230769231 * 130, image: "assets/FABRIC-VANS-(2).jpeg" },
     { id: 11, name: "Vans Old Skool Black  & White", price: 16.1538461538 * 130, image: "assets/Vans-Old-Skool-Black-&-White.jpeg" },
-    { id: 12, name: "Designer Casuals", price: 20.7692307692 * 130, image: "assets/designer-casuals.jpeg"},
+    { id: 12, name: "Designer Casuals", price: 23.0769230769 * 130, image: "assets/designer-casuals.jpeg"},
     { id: 13, name: "Asics  Gel-kayano 14", price: 21.5384615385 * 130, image: "assets/Asics-Gel-kayano-14.jpeg"},
     { id: 14, name: "White Air Force 1", price: 18.4615384615 * 130, image: "assets/white-air-force-1.jpg"},
     { id: 15, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" } ,
