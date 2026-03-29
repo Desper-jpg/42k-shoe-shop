@@ -598,6 +598,12 @@ nav {
 #contactForm button:hover {
   background: #005fa3;
 }
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 
 /* ===================== FOOTER ===================== */
 footer {
