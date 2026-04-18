@@ -10,9 +10,9 @@ const products = [
     { id: 8, name: "Adidas Porsche Blue White", price: 21.5384615385 * 130, image: "assets/Adidas-Porsche-Blue-White.jpeg" },
     { id: 9, name: "New Balance 9060 Black & White", price: 27.6923076923 * 130, image: "assets/New-balance-black-&-white.jpg" }, 
     { id: 10, name: "Fabric Vans", price: 16.9230769231 * 130, image: "assets/FABRIC-VANS-(2).jpeg" },
-    { id: 11, name: "Vans Old Skool Black  & White", price: 19.2307692308 * 130, image: "assets/Vans-Old-Skool-Black-&-White.jpeg" },
+    { id: 11, name: "Clarks", price: 26.9230769231 * 130, image: "assets/Clarks.jpg"},
     { id: 12, name: "Designer Casuals", price: 23.0769230769 * 130, image: "assets/designer-casuals.jpeg"},
-    { id: 13, name: "Asics  Gel-kayano 14", price: 21.5384615385 * 130, image: "assets/Asics-Gel-kayano-14.jpeg"},
+    { id: 13, name: "Customize Air Force 1", price: 29.2307692308 * 130, image: "assets/Customize-air-force-1.jpg"},
     { id: 14, name: "White Air Force 1", price: 16.9230769231 * 130, image: "assets/white-air-force-1.jpg"},
     { id: 15, name: "Air Max 97", price: 27.6923076923 * 130, image: "assets/Air-max-97-(2).jpg" } ,
     { id: 16, name: "Lacoste Casuals", price: 21.5307692308 * 130, image: "assets/Lacoste-Casuals.jpeg"},
@@ -38,7 +38,7 @@ const products = [
     { id: 36, name: "Nike Air Zoom", price: 25.3769230769 * 130, image: "assets/nike-air-zoom.jpg"},
     { id: 37, name: "Sb Dunk Low", price: 21.5384615385 * 130, image: "assets/sb-dunk-low.jpg"},
     { id: 38, name: "Timberland Loafer", price: 20.76153846153846 * 130, image: "assets/timberland-loafer.jpg"},
-    { id: 39, name: "Vans Knu Skool", price: 19.2307692308 * 130, image: "assets/vans-knu-skool.jpg"},
+    { id: 39, name: "Asics  Gel-kayano 14", price: 21.5384615385 * 130, image: "assets/Asics-Gel-kayano-14.jpeg"},
     { id: 40, name: "Nike portal Pink", price: 24.6153846154 * 130, image: "assets/Nike-Portal-Pink.jpg"},
     { id: 41, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-97.jpg"},
     { id: 42, name: "Nike Air Max 97", price: 26.15384615384615 * 130, image: "assets/Nike-Air-Max-9-(2).jpg"},
@@ -95,7 +95,8 @@ const products = [
     { id: 93, name: "Clark Wallabee", price: 26.92307692307692 * 130, image: "assets/clark-wallabee.jpg"},
     { id: 94, name: "Suede Clogs", price: 13.8461538462 * 130, image: "assets/suede-clogs-(4).jpg"},
     { id: 95, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
-    { id: 96, name: "Single Sole Samba", price: 16.9230769231 * 130, image: "assets/Single-Sole-Samba.jpg"}
+    { id: 96, name: "Single Sole Samba", price: 16.9230769231 * 130, image: "assets/Single-Sole-Samba.jpg"},
+    { id: 97, name: "Vans Old Skool Black  & White", price: 19.2307692308 * 130, image: "assets/Vans-Old-Skool-Black-&-White.jpeg" }
     
 ];
 
