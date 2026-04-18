@@ -1,7 +1,7 @@
 // Sample Product Data (Fixed image paths and consistent formatting)
 const products = [
     { id: 1, name: "Leather Converse", price: 10.7692307692 * 130, image: "assets/Leather-Converse.jpeg"},
-    { id: 2, name: "Single Sole Samba", price: 16.9230769231 * 130, image: "assets/Single-Sole-Samba.jpg"},
+    { id: 2, name: "Puma Speedcat", price: 26.9230769231 * 130, image: "assets/speed-cat-(1).jpeg"},
     { id: 3, name: "Designer Casuals", price: 23.0769230769 * 130, image: "assets/designer-casuals-(3).jpeg" },
     { id: 4, name: "NB 530 Black & White", price: 23.0769230769 * 130, image: "assets/NB-530-Black-&-White.jpeg"},
     { id: 5, name: "Nike Tn Deadpool", price: 26.1538461538 * 130, image: "assets/Nike-Tn-Deadpool.jpeg" },
@@ -94,7 +94,8 @@ const products = [
     { id: 92, name: "Vapor Max", price: 27.6923076923 * 130, image: "assets/vapor-max.jpg"},
     { id: 93, name: "Clark Wallabee", price: 26.92307692307692 * 130, image: "assets/clark-wallabee.jpg"},
     { id: 94, name: "Suede Clogs", price: 13.8461538462 * 130, image: "assets/suede-clogs-(4).jpg"},
-    { id: 95, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"} 
+    { id: 95, name: "Valentino Garavani", price: 22.3 * 130, image: "assets/valentino-garavani.jpg"},
+    { id: 96, name: "Single Sole Samba", price: 16.9230769231 * 130, image: "assets/Single-Sole-Samba.jpg"}
     
 ];
 
