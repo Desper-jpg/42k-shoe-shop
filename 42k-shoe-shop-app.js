@@ -248,7 +248,30 @@ function checkout() {
 
   console.log("🟢 WhatsApp message to send:", message);
   console.log("🔗 Encoded WhatsApp URL:", whatsappLink);
+  
+  const orderData = {
+  customerName: name,
+  phone: phone,
+  shoeName: cart.map(item => item.name).join(", "),
+  size: cart.map(item => item.size).join(", "),
+  buyingPrice: 0,
+  sellingPrice: total,
+  deliveryFee: 0,
+  status: "Pending"
+};
 
+fetch("https://script.google.com/macros/s/AKfycbwxnBIGJNzepv4ZBJYIj7hKkHUVm6UkM391e7VXIvbvQu5n-tztAcm0SNravmyAePpnyg/exec", {
+  method: "POST",
+  body: JSON.stringify(orderData)
+})
+.then(response => response.json())
+.then(data => {
+  console.log("Order saved to Google Sheets", data);
+})
+.catch(error => {
+  console.error("Error saving order:", error);
+});  
+    
   window.open(whatsappLink, '_blank');
 
   cart = [];
