@@ -262,17 +262,25 @@ function checkout() {
 
 fetch("https://script.google.com/macros/s/AKfycbwxnBIGJNzepv4ZBJYIj7hKkHUVm6UkM391e7VXIvbvQu5n-tztAcm0SNravmyAePpnyg/exec", {
   method: "POST",
-  body: JSON.stringify(orderData)
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  body: new URLSearchParams(orderData)
 })
-.then(response => response.json())
+.then(response => response.text())
 .then(data => {
-  console.log("Order saved to Google Sheets", data);
+  console.log("Order saved to Google Sheets:", data);
+
+  // open WhatsApp AFTER saving
+  window.open(whatsappLink, "_blank");
 })
 .catch(error => {
   console.error("Error saving order:", error);
-});  
-    
-  window.open(whatsappLink, '_blank');
+
+  // fallback: still open WhatsApp
+  window.open(whatsappLink, "_blank");
+});
+ 
 
   cart = [];
   saveCart();
