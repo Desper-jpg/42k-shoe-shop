@@ -45,7 +45,7 @@ const products = [
     { id: 43, name: "Nike Air Max 97", price: 29.2307692308 * 130, image: "assets/Nike-Air-Max-9-(3).jpg"},
     { id: 44, name: "Adidas Gazelle ", price: 24.6153846154 * 130, image: "assets/Adidas-Gazelle-(2).jpg"},
     { id: 45, name: "Pink Air Max TN ", price: 33.0769230769 * 130, image: "assets/Pink-TN.jpeg"},
-    { id: 46, name: "Suede Clogs", price: 13.8461538462 * 130, image: "assets/suede-clogs-(3).jpg"},
+    { id: 46, name: "Suede Clogs", price: 23.8461538462 * 130, image: "assets/suede-clogs-(3).jpg"},
     { id: 47, name: "Designer Casuals", price: 23.0769230769 * 130, image: "assets/designer-casuals-(2).jpeg"},
     { id: 48, name: "Suede Clogs", price: 13.8461538462 * 130, image: "assets/suede-clogs.jpg"},
     { id: 49, name: "Timberland Leather Boots", price: 24.6153846154 * 130, image: "assets/timberland-leather-boots.webp"},
