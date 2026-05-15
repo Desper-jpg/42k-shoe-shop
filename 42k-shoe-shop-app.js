@@ -309,7 +309,7 @@ function renderPaginatedProducts() {
   const paginatedProducts = filteredProducts.slice(start, end);
 
   DOM.productGrid.innerHTML = paginatedProducts.map(product => `
-    <div class="product-card">
+    <div class="product-card" id="${product.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}">
       <img src="${product.image}" alt="${product.name}" class="product-image" data-image="${product.image}"
            onerror="this.src='https://via.placeholder.com/300'; this.alt='Image missing';">
       <div class="product-info">
